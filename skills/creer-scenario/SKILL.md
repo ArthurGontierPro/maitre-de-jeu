@@ -13,7 +13,9 @@ Lis, dans cet ordre : `etat_actuel.md`, `personnage.md`, `regles.md`, `secrets_m
 
 Note ce que le joueur **sait déjà** et ce qu'il a **déjà deviné**. Un voyage qui ne fait que confirmer ses déductions est un voyage raté : s'il a tout compris d'avance, donne-lui raison vite et déplace l'enjeu ailleurs.
 
-Puis pose au joueur, en une seule fois (AskUserQuestion), uniquement ce qui manque vraiment : le ton, la durée visée en sessions, le type dominant (exploration, enquête, hub social, survie…), le point d'entrée du personnage. Ne demande pas ce qu'il garde secret sur son personnage. Ce secret lui appartient : tu construis autour, sans le toucher et sans l'expliquer.
+Puis pose au joueur, en une seule fois (AskUserQuestion), uniquement ce qui manque vraiment : le ton, la durée visée en sessions, le type dominant (exploration, enquête, hub social, survie…), le lieu et le moment où le personnage arrive. Ne demande rien sur le personnage lui-même.
+
+**Un bon scénario se joue avec n'importe quel personnage.** Ce que le personnage est, ce qu'il veut, sa morale et ses choix appartiennent au joueur, et le monde réagit à ce qu'il fait, jamais à ce que tu supposes qu'il pense. Ne construis donc rien sur ses motivations, ne lui prête aucune intention, ne prévois pas « ce qu'il fera ». Les accroches sont des situations dans le monde (une échéance, un lieu qui appelle, quelqu'un qui a besoin de quelque chose, une porte qui se ferme), pas des ressorts personnels. Si le joueur a révélé quelque chose de son personnage, c'est noté dans `personnage.md` tel quel : tu n'en tires rien, tu ne l'expliques pas.
 
 ## 2. Construire, dans cet ordre
 
@@ -76,7 +78,7 @@ Avant d'écrire les fichiers définitifs, vérifie point par point :
 - chaque situation clé a ses deux issues ;
 - l'arc alterne avec le précédent (après un hub, un voyage, et inversement), et le voyage apporte du neuf (une révélation, un danger, une merveille, un choix), pas une confirmation ;
 - le joueur peut tout rater sans que l'histoire se bloque ;
-- rien ne touche au secret que le joueur garde sur son personnage ;
+- le scénario ne présume rien du personnage (ni ce qu'il veut, ni ce qu'il fera, ni ce qu'il est) : il serait jouable tel quel par n'importe qui ;
 - chaque retour de `retours_joueur.md` a une réponse concrète dans le scénario.
 
 ## 5. Écrire les fichiers
