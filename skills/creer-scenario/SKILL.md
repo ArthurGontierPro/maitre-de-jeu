@@ -35,6 +35,8 @@ Puis seulement, choisis dans ce monde **où et quand** se passe l'arc. Le lieu, 
 
 Une vérité cachée qui, une fois connue, change la lecture de tout l'arc : ce que sont vraiment les dunes, qui a bâti la ville, pourquoi le fleuve remonte. Découpe-la en **5 à 8 pièces de puzzle**. Pour chaque pièce, note où et comment on la trouve (au moins **deux chemins** différents : un lieu, un PNJ, un objet, une observation) et ce qu'elle laisse croire **à tort** quand on l'a seule. Le joueur attentif doit pouvoir reconstituer le secret avant la fin ; personne ne doit pouvoir le deviner avec une seule pièce. Chaque petite aventure de l'arc donne au moins une pièce.
 
+**Une révélation ne doit jamais être plus petite que son mystère.** Le joueur ne craint pas de comprendre, il aime ça ; ce qui le déçoit, c'est une explication qui rapetisse ce qu'elle explique. Pour chaque pièce, écris donc deux choses : la question qu'elle **ferme**, et la question **plus grande** qu'elle **ouvre**. Une pièce qui n'ouvre rien arrive trop tôt ou est trop petite : garde-la pour un arc suivant, ou grossis-la. Le grand secret lui-même doit **relire** l'arc (ce qu'on a vu change de sens, et l'on veut y retourner), pas le **clore** (« voilà, c'était ça »). Si, en relisant ton grand secret, le monde paraît plus petit qu'avant, le mystère vaut mieux que la réponse : ne la donne pas dans cet arc.
+
 Ajoute toujours une pièce d'un autre genre : **les indices de contexte**. Où est-on, quand, sous quelle puissance, après quelle histoire ? Trois ou quatre indices diffus, qui ne se comprennent qu'une fois recoupés : un mot que personne ne connaît, un compte d'années dans la bouche d'un marchand, une ruine qu'on nomme sans l'expliquer, une coutume qui contredit celle d'ailleurs. Chacun dans la bouche ou sous les yeux de quelqu'un qui a une raison de le donner, et aucun jamais confirmé de lui-même : c'est le joueur qui assemble, et il aime ça. Reporte ces indices dans la fiche des PNJ et des lieux concernés, sinon le MJ les oubliera.
 
 ### 2.2 La carte
@@ -61,9 +63,13 @@ Une force qui veut quelque chose et qui **agit** : un plan en 3 à 5 étapes dat
 
 Une liste datée de ce qui arrive **sans** le joueur, avec au moins une échéance qui force le rythme. Le monde bouge même s'il ne fait rien. Le skill `jouer` coche cette liste pendant la partie : écris-la au futur seulement.
 
+Pour chaque échéance, écris aussi **ce que devient l'histoire si le joueur arrive après** : une autre route, un autre prix, une autre fin. Jamais une fin de partie : « vous arrivez trop tard » est une scène, pas une conclusion. Le MJ a le droit de décaler une échéance ou de déplacer un PNJ pour qu'une scène qui compte ait lieu (voir le skill `jouer`) ; ne construis donc pas l'arc de sorte que tout tienne à une seule date.
+
 ### 2.6 Les situations clés
 
 Pour chaque situation importante (3 à 6) : une issue favorable, une issue catastrophique, ce qu'il faut pour obtenir chacune, et de la place pour une troisième que le joueur inventera. Un échec fait avancer l'histoire (complication, prix à payer) ; il ne la bloque jamais.
+
+**Chaque issue change l'état du jeu avant la fin de l'arc.** Le test : **quel fichier change ?** Une porte qui s'ouvre ou se ferme (`secrets_mj.md`, carte), une ressource qui bouge (`personnage.md`), un PNJ qui change de place, de camp ou de plan (fiche PNJ), une ligne de l'horloge qui avance, disparaît ou apparaît. Une conséquence qui ne change aucun fichier n'est qu'un sentiment : elle compte pour le ton, pas pour le jeu, et le joueur ne la sentira pas peser. Ce qui se paie « dans l'arc suivant » ou « au printemps » doit avoir **dès cet arc** un écho que le joueur peut voir et sur lequel il peut encore agir, sinon il ne le verra jamais et son choix n'aura pas compté. Reporte le reste dans le `RESUME.md` de l'arc pour l'arc suivant.
 
 ### 2.7 Les règles maison de l'arc
 
@@ -88,7 +94,9 @@ Avant d'écrire les fichiers définitifs, vérifie point par point :
 - au moins deux hypothèses crédibles restent ouvertes jusqu'au milieu de l'arc ;
 - l'antagoniste a un plan daté et des réactions prévues ;
 - l'horloge contient une échéance ;
-- chaque situation clé a ses deux issues ;
+- chaque situation clé a ses deux issues, et chaque issue change un fichier avant la fin de l'arc ; toute conséquence différée a un écho jouable dans l'arc ;
+- chaque pièce du puzzle ferme une question et en ouvre une plus grande ; le grand secret relit l'arc, il ne le clôt pas ;
+- chaque échéance de l'horloge a sa version « en retard » : une autre route ou un autre prix, jamais une fin de partie ;
 - l'arc alterne avec le précédent (après un hub, un voyage, et inversement), et le voyage apporte du neuf (une révélation, un danger, une merveille, un choix), pas une confirmation ;
 - le ressort de l'arc (secret, antagoniste, structure, preuve) diffère des arcs passés sur au moins deux points ;
 - l'arc puise **visiblement** dans le monde large (une puissance qui agit, une ruine nommée, une légende vraie à moitié) et fait avancer d'un cran au moins une révélation du grand dessin ;

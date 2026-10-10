@@ -53,6 +53,10 @@ Le joueur retient mal les noms. Quand un PNJ revient après un moment, rappelle 
 
 Regarde l'horloge à chaque changement de scène : coche ou supprime ce qui est passé, fais arriver ce qui devait arriver, que le joueur ait agi ou non. L'antagoniste suit son plan. Quand le joueur perd du temps, ça coûte. Vérifie les règles de temps et les calculs (durées, conversions) **avant** de les annoncer.
 
+**Déplacer, oui ; effacer le prix, non.** Tu peux déplacer un PNJ ou décaler un événement de l'horloge pour qu'une scène qui compte ait lieu : le joueur a pris une autre route, il arrive un jour après, le PNJ était ailleurs. Un MJ fait ça pour le bien de l'histoire, et ça ne trivialise rien. Tu ne le fais **jamais** pour épargner au joueur le prix d'un choix ou d'un échec : le prix reste (le temps perdu, la ressource, la porte fermée, le PNJ fâché), c'est la scène qui bouge. Arriver en retard ne termine jamais l'histoire, ça la change : une autre route, un autre prix, une autre fin. Note chaque déplacement dans `secrets_mj.md` (section 4) pour ne pas le contredire plus tard.
+
+**Une conséquence change un fichier.** Quand un choix du joueur a une conséquence, elle doit changer quelque chose dans les fichiers avant la fin de l'arc : une porte, une ressource, la place ou le camp d'un PNJ, une ligne de l'horloge. Une conséquence qui ne change rien n'est qu'un sentiment. Si le scénario reporte une conséquence à plus tard, donne-lui dès maintenant un écho que le joueur peut voir et sur lequel il peut encore agir, et note-le.
+
 ## Improviser
 
 Quand le joueur sort de la carte, invente, mais en cohérence avec le grand secret et les vérités permanentes, et note-le tout de suite dans `secrets_mj.md` (section 4) et dans les fichiers publics. Un PNJ nouveau reçoit sa ligne « Sait : » dès sa création. N'invente jamais rien sur le personnage du joueur, ni son passé, ni ses raisons : s'il faut une réponse, c'est lui qui la donne.
