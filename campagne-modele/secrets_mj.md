@@ -3,7 +3,15 @@
 _Structure tenue par le skill `creer-scenario` (sections 1 et 2, horloge) et par le skill `jouer` (horloge cochée, section 4). Ce qui est dépassé part dans `arcs/<arc>/`. Les règles que le joueur connaît vont dans `regles.md`._
 
 ## 1. Vérités permanentes
-_(Ce qui est vrai du monde, quel que soit l'arc.)_
+_(Ce qui est vrai du monde, quel que soit l'arc. Écrit une fois, complété à chaque arc, jamais réécrit.)_
+
+### 1.1 Le monde large (caché)
+_(Pays, peuples, puissances, civilisations anciennes, légendes : ce qui est vrai derrière ce que `monde/univers.md` dit.)_
+
+### 1.2 Le grand dessin
+_(Deux ou trois révélations à l'échelle de la campagne. Pour chacune : la vérité, et ce que chaque arc en laisse passer.)_
+
+### 1.3 Acquis des arcs passés
 
 ## 2. Arc en cours : <titre>
 
@@ -14,6 +22,11 @@ Ton : · Type : · Durée visée : · Point d'entrée : · Ce que le joueur sait
 **Le secret** : 
 
 | Pièce | Où / comment on la trouve (≥ 2 chemins) | Ce qu'elle laisse croire à tort, seule |
+|---|---|---|
+| | | |
+
+**Indices de contexte** (où, quand, sous qui ; 3 ou 4, diffus, sourcés, jamais confirmés) :
+| Indice | Qui le donne / où on le voit | Ce qu'il permet de déduire, recoupé |
 |---|---|---|
 | | | |
 
