@@ -4,7 +4,7 @@ Deux skills Claude Code pour mener une campagne de jeu de rôle en solo, en fran
 
 | Skill | Quand | Ce qu'il fait |
 |---|---|---|
-| `creer-scenario` | hors partie | construit un arc : grand secret en pièces de puzzle, carte des lieux, PNJ, antagoniste qui agit, horloge, issues, calibrage de la difficulté ; écrit les fichiers de campagne |
+| `creer-scenario` | hors partie | construit un arc : grand secret en pièces de puzzle, condition de fin et arbre des conditions, carte des lieux sur une topographie réelle, PNJ, antagoniste qui agit, horloge, situations à trois portes, réserve d'aventures tampon, calibrage de la difficulté ; écrit les fichiers de campagne |
 | `jouer` | en session | lit les fichiers, fait le « Précédemment », narre, fait parler les PNJ, lance les dés, tient l'horloge, met les fichiers à jour |
 
 Les deux se parlent par les fichiers de la campagne, dont la structure est dans `campagne-modele/`.
@@ -42,3 +42,6 @@ d100 sous la valeur (stat ou compétence), critiques sur 1-5 et 96-100, modifica
 
 ## Historique
 `archive/` contient le système v1 (un `CLAUDE.md` unique) et les raisons du passage aux deux skills.
+
+## Sources et remerciements
+La méthode du skill `creer-scenario` s'inspire de maîtres de jeu qui ont partagé la leur en public, FibreTigre en premier. Qui a apporté quoi, et où le lire : `REMERCIEMENTS.md`.
