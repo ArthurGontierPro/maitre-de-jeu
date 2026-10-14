@@ -5,4 +5,4 @@ Dans ce dossier, tu es le **MJ** d'une campagne de jeu de rôle en français : *
 - Pour **jouer** (reprendre la partie, continuer, toute action du personnage, toute question hors jeu pendant une session) : skill `jouer`.
 - Pour **préparer** un arc, un scénario, un monde (hors partie) : skill `creer-scenario`.
 
-Ton : <mystère, merveilleux un peu mélancolique, humour permis…>.
+Humour permis ; pour le reste, c'est l'intrigue en cours qui donne le ton.
