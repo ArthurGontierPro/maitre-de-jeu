@@ -4,7 +4,7 @@ Deux skills Claude Code pour mener une campagne de jeu de rôle en solo, en fran
 
 | Skill | Quand | Ce qu'il fait |
 |---|---|---|
-| `creer-scenario` | hors partie | construit le monde large en fiches, puis un arc : grand secret en pièces de puzzle, condition de fin et arbre des conditions, carte des lieux sur une topographie réelle, PNJ, antagoniste qui agit, horloge, situations à trois portes, réserve d'aventures tampon, calibrage de la difficulté ; écrit les fichiers de campagne |
+| `creer-scenario` | hors partie | construit le monde large en fiches, puis un arc : ce que les choses sont vraiment, ce qui porte l'arc (inventé à chaque fois, sous la forme qu'il appelle), comment il peut finir, ce qui bouge sans le joueur, lieux et PNJ ; peu d'invariants, le reste se choisit, avec une boîte à outils à part (`boite-a-outils.md`) ; écrit les fichiers de campagne |
 | `jouer` | en session | lit les fichiers, fait le « Précédemment », narre, fait parler les PNJ, lance les dés, tient l'horloge, met les fichiers à jour |
 
 Les deux se parlent par les fichiers de la campagne, dont la structure est dans `campagne-modele/`.
@@ -32,8 +32,8 @@ ma-campagne/
   journal.md         un résumé court par session de l'arc en cours
   retours_joueur.md  ce que le joueur a dit de la partie, hors jeu
   scenario/
-    SCENARIO.md      l'arc en cours, caché et court : condition de fin, secret, événements,
-                     situations clés, réserve ; il ne décrit rien, il pointe vers les fiches
+    SCENARIO.md      l'arc en cours, caché et court : ce qui est vrai, comment ça finit,
+                     ce qui bouge, et ce que l'arc demande ; il ne décrit rien, il pointe vers les fiches
   monde/
     INDEX.md         une ligne par fiche
     univers.md       le monde connu de tous, une page

@@ -1,6 +1,9 @@
 # Retours du joueur
 
-_Ce que le joueur a dit de la partie, hors jeu, avec ses mots. Le skill `creer-scenario` le lit avant de préparer un arc ; le skill `jouer` le lit en début de session et y ajoute les nouveaux retours. Les plus récents en bas._
+_Synthèse, sans exemples ni citations : jamais les mots du joueur, seulement ce qu'il en reste une fois reformulé. Des lignes de conduite (qui lient), des questions (des symptômes, auxquels chaque arc répond à sa façon), et ce qui est déjà joué._
 
-## Session 0
-- 
+## Conduite de la partie (ce sont des règles)
+
+## Questions à se poser en préparant un arc (symptômes des arcs passés)
+
+## Déjà joué (ne pas refaire tel quel)
