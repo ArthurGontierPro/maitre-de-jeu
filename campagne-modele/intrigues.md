@@ -5,7 +5,6 @@ _Uniquement ce que le personnage a appris ou observé. La vérité est dans `sce
 _(vide)_
 
 ## Arc 1 : <titre>
-**Question centrale** : 
 
 ### Ce que le joueur sait déjà
 - 

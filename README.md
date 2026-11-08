@@ -4,8 +4,8 @@ Deux skills Claude Code pour mener une campagne de jeu de rôle en solo, en fran
 
 | Skill | Quand | Ce qu'il fait |
 |---|---|---|
-| `creer-scenario` | hors partie | construit le monde large en fiches, puis un arc : ce que les choses sont vraiment, ce qui porte l'arc (inventé à chaque fois, sous la forme qu'il appelle), comment il peut finir, ce qui bouge sans le joueur, lieux et PNJ ; peu d'invariants, le reste se choisit, avec une boîte à outils à part (`boite-a-outils.md`) ; écrit les fichiers de campagne |
-| `jouer` | en session | lit les fichiers, fait le « Précédemment », narre, fait parler les PNJ, lance les dés, tient l'horloge, met les fichiers à jour |
+| `creer-scenario` | hors partie | esquisse le monde entier en une page, puis part de ce que l'arc a de propre et écrit ce que les choses sont vraiment, comment l'arc peut finir, ce qui bouge sans le joueur, les lieux et les PNJ de l'arc et des zones voisines ; cinq invariants, le reste se choisit ; une boîte à outils à part (`boite-a-outils.md`) ; écrit les fichiers de campagne |
+| `jouer` | en session | lit les fichiers, fait le « Précédemment », suit le joueur, narre, fait parler les PNJ, lance les dés, fait bouger le monde, met les fichiers à jour aux changements de scène |
 
 Les deux se parlent par les fichiers de la campagne, dont la structure est dans `campagne-modele/`.
 
@@ -32,19 +32,19 @@ ma-campagne/
   journal.md         un résumé court par session de l'arc en cours
   retours_joueur.md  ce que le joueur a dit de la partie, hors jeu
   scenario/
-    SCENARIO.md      l'arc en cours, caché et court : ce qui est vrai, comment ça finit,
-                     ce qui bouge, et ce que l'arc demande ; il ne décrit rien, il pointe vers les fiches
+    SCENARIO.md      l'arc en cours, caché et court : cadrage, ce qui est vrai, comment ça peut finir,
+                     ce qui bouge, écarts, plus ce que l'arc demande ; il ne décrit rien, il pointe vers les fiches
   monde/
     INDEX.md         une ligne par fiche
     univers.md       le monde connu de tous, une page
     histoire.md      chronologie et « En ce moment, ailleurs »
-    grand_dessin.md  les vérités à l'échelle de la campagne (caché)
+    grand_dessin.md  ce qui est vrai à l'échelle de la campagne, s'il y a quelque chose (caché)
     contrees/ factions/ anciens/ lieux/ pnj/   une fiche par élément
   arcs/<arc>/        archives des arcs terminés, avec RESUME.md
   des.py, jets.log   lanceur de dés d100 et historique
 ```
 
-Le MJ lit à chaque session ce qui est court (état, scénario, index) et n'ouvre une fiche que quand la scène la touche. Le monde peut donc être vaste sans encombrer la partie, et le scénario dit toujours ce qui fait avancer l'intrigue.
+Le MJ lit à chaque session ce qui est court (état, scénario, index) et n'ouvre une fiche que quand la scène la touche. Le monde est esquissé en entier dès le départ et se détaille d'arc en arc sans encombrer la partie, et le scénario dit ce qui peut faire avancer l'arc, pas ce qui doit arriver.
 
 ## Le système
 d100 sous la valeur (stat ou compétence), critiques sur 1-5 et 96-100, modificateurs de ±10 à ±30, 20 PV. Détail dans `campagne-modele/regles.md`. Le lanceur : `python3 des.py 60 +10`, `python3 des.py 2d6`, `--cache` pour un jet caché du MJ.
