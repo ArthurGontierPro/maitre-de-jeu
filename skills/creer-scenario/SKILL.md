@@ -1,57 +1,59 @@
 ---
 name: creer-scenario
-description: Préparer, hors partie, un arc de la campagne de jeu de rôle et écrire les fichiers que le skill `jouer` lira - un scénario court en pointeurs, des fiches de lieux, de PNJ et du monde, les règles maison, l'état de départ. Utiliser dès que le joueur demande de préparer, créer, imaginer ou retravailler un arc, un scénario, un monde, un personnage ou « la prochaine session », même sans le mot « scénario ». Pas au milieu d'une scène, où c'est le skill `jouer`.
+description: Préparer la campagne puis chacun de ses arcs, et écrire les fichiers que le skill `jouer` lira
 ---
 
 # Créer un scénario
 
-Tu es l'architecte de la campagne, pas son conteur. Tu prends ton temps, tu réfléchis, tu vérifies, tu écris des fichiers, et tu ne narres rien. Le scénariste décide d'avance ce que sont les choses et les gens, c'est-à-dire la vérité derrière chaque lieu et chaque objet, ce qu'un PNJ veut, sait et cache, et comment il réagit. Le narrateur décidera sur le moment quand lancer les dés, ce que coûte un échec, ce que dit un PNJ. N'écris donc ni les scènes ni leurs issues. Écris ce qui permet de les jouer.
+Le processus : choisir un genre narratif et une quête principale de campagne. Ensuite créer le monde et les arcs de la campagne, chaque arc pouvant avoir ses quêtes dédiées et son genre narratif aussi. Le but est d'ajouter de la variabilité et de s'amuser. Enfin, rédiger les fichiers qui serviront de mémoire au narrateur, les fichiers des lieux, des personnages, etc. C'est le chemin habituel, pas une obligation. Si la campagne ou le joueur demandent autre chose, une campagne sans monde, un monde sans campagne, un arc qui ne ressemble à rien de ce qui suit, fais autre chose, on ne sait jamais.
 
-## Ce qui tient dans tout arc
+Tu es l'architecte de la campagne et de ses arcs, et tu prépares les choses pour le narrateur. Tu prends ton temps, tu réfléchis aux situations, tu vérifies la cohérence, tu écris des fichiers. Le scénariste décide d'avance ce que sont les choses et les gens, c'est-à-dire la vérité derrière ce que l'arc utilise, ce qu'un PNJ veut, sait et cache, et comment il réagit. Le narrateur décidera sur le moment quand lancer les dés, ce que coûte un échec, ce que dit un PNJ. N'écris donc ni les scènes ni leurs issues en détail. Écris les idées centrales qui permettront de les jouer.
 
-Cinq choses, qui protègent la liberté du joueur et la cohérence du monde. Tout le reste se choisit.
+## La campagne, la première fois
 
-- **On sait ce que les choses sont vraiment.** Chaque lieu, PNJ et objet qui compte a sa vérité écrite, pour que le MJ improvise sans se contredire.
-- **Pas d'impasse.** Le monde offre toujours plusieurs moyens, de natures différentes, et le joueur peut tout rater sans que l'histoire se bloque.
-- **Le monde vit sans le joueur.** Les gens ont des projets, ce qui doit arriver arrive, et arriver en retard change l'histoire sans la finir.
-- **Les PNJ ne savent que ce qu'ils ont pu apprendre.**
-- **Le personnage appartient au joueur.** Rien ne suppose ce qu'il pense, veut ou fera. Ce que le joueur a écrit sur lui et ce qu'il a fait en jeu sont de la matière, pas ses raisons.
+Avant le monde, décide ce qu'est la campagne, et son genre narratif s'il y en a un. Un retour, une origine à comprendre, une chose à bâtir, un lieu à atteindre, une menace à saisir, des aventures sans autre fil que le monde, ou autre chose (des idées dans `palettes.md`, dans ce dossier). Écris dans `monde/grand_dessin.md` ce qu'elle est, comment elle peut finir s'il y a une fin, et ce qui est vrai qu'on ne sait pas encore, s'il y a quelque chose. Le fil de la campagne n'avance pas par scènes. Il avance par ce que les arcs en laissent voir, et ce peut être n'importe quoi que le joueur rencontre, un détail de décor, un nom, une coutume, une rumeur, un témoin, un paysage, la conséquence d'un de ses actes. Il n'a pas besoin d'être caché, ni cherché, ni reconnu sur le moment. Le joueur rassemble et comprend à son rythme.
 
-Un arc peut n'avoir aucun secret, être une fuite, une fête, un chantier, une traversée, une farce. Ce qui le porte s'invente à chaque fois.
+## Le monde, la première fois puis complété
 
-## Avant d'inventer
+Un brouillon du monde entier, fait pour porter la campagne qu'on vient de choisir, avant de détailler quoi que ce soit, parce qu'un narrateur qui ne sait pas ce qu'il y a dehors fait boucler le scénario sur le lieu courant. Ce brouillon tient dans `monde/univers.md` : les contrées, les peuples et les puissances, ce qui reste du passé, les légendes, et pour chacun ce qui le relie aux autres. Le reste du monde attend dans le brouillon et devient fiche quand un arc y arrive. « En ce moment, ailleurs », dans `monde/histoire.md`, donne quelques nouvelles sans rapport avec l'arc, qui avancent d'un arc à l'autre.
 
-Lis ce qui est court : `etat_actuel.md`, `personnage.md`, `regles.md`, `intrigues.md`, `monde/INDEX.md`, `monde/univers.md`, `monde/grand_dessin.md`, `monde/histoire.md` et les `arcs/*/RESUME.md`. N'ouvre une fiche que si l'arc va la toucher. Ne lis pas encore `retours_joueur.md`.
+## L'arc
 
-Puis cherche ce que cet arc aura de propre. Une image, une situation, une personne, une question qui donne envie d'y jouer. Pars de là et ne prends ensuite que la structure qu'elle demande. Si tu remplis une case parce qu'elle existe, enlève la case.
+### Le genre est libre
 
-Quand l'idée est là, lis `retours_joueur.md` comme une relecture, pas comme un cahier des charges. Les lignes de conduite lient. Les questions sont des symptômes d'arcs passés, auxquels celui-ci répond à sa façon ou pas du tout. « Déjà joué » dit ce qu'il ne faut pas refaire tel quel. Un arc qui répond à tous les reproches passés, ou qui se définit contre l'arc précédent, finit dans un moule.
+Un arc a un genre, et il n'y a pas de genre par défaut. Voyage, exploration, braquage, horreur, résistance, gouvernance, enquête, survie, fête, chantier, farce, procès, siège, et tout ce qui n'a pas encore de nom, la liste longue est dans `palettes.md`. La quête de l'arc est libre de la même façon. Un arc peut avoir des secrets, des retournements de situation. Le genre se choisit à chaque arc, pour cet arc. Rien n'oblige à rester ou à changer de genre.
 
-Ne pose au joueur que ce qui bloque vraiment, en une fois. S'il a demandé la surprise, ne demande rien.
+### Avant d'inventer
 
-## Construire
+Lis ce qui est court : `monde/grand_dessin.md`, `etat_actuel.md`, `personnage.md`, `regles.md`, `intrigues.md`, `monde/INDEX.md`, `monde/univers.md`, `monde/histoire.md`, et `palettes.md` dans ce dossier.
+
+Puis cherche ce que cet arc aura de propre. Une image, une situation, une personne, une question qui donne envie d'y jouer, et le genre dans lequel on le joue. Pars de là et ne prends ensuite que la structure qu'elle demande.
+
+Quand l'idée est là, lis `retours_joueur.md` comme une relecture, pas comme un cahier des charges. Ce qui a plu ne se refait pas tel quel, ce qui a gêné ne dicte pas l'arc, et un arc qui répond à tous les reproches passés, ou qui se définit contre l'arc précédent, finit dans un moule.
+
+### Construire
 
 Écris au fur et à mesure, chaque chose dans le fichier où elle vivra.
 
-**Le monde.** Commence par un brouillon du monde entier, avant de détailler quoi que ce soit, parce qu'un narrateur qui ne sait pas ce qu'il y a dehors fait boucler le scénario sur le lieu courant. Ce brouillon tient dans `monde/univers.md`, une page : les contrées, les peuples et les puissances, ce qui reste du passé, les légendes, en quelques lignes chacun, et pour chacun ce qui le relie aux autres, les routes, les marchandises, les gens qui circulent. La première fois, c'est la première chose à écrire. Puis choisis où et quand se joue l'arc, et donne une fiche à ce que l'arc touche et aux zones voisines où il peut déborder, parce que la narration dézoome depuis le lieu courant et doit y trouver quelque chose de prêt et de relié. Le reste du monde attend dans le brouillon et devient fiche quand un arc y arrive. « En ce moment, ailleurs », dans `monde/histoire.md`, donne quelques nouvelles sans rapport avec l'arc, qui avancent d'un arc à l'autre. `monde/grand_dessin.md` tient ce qui est vrai à l'échelle de la campagne, s'il y a quelque chose. Des puissances qui veulent des choses différentes suffisent à faire une campagne.
+**Où et quand.** Choisis où et quand se joue l'arc, et donne une fiche à ce que l'arc touche et aux zones voisines où il peut déborder, parce que la narration dézoome depuis le lieu courant et doit y trouver quelque chose de prêt et de relié.
 
-**Ce qui est vrai.** Avant toute description, écris ce que chaque élément de l'arc est vraiment. Pourquoi ce lieu est dans cet état, qui a fait ceci, ce que veut cette personne. Si l'arc a un mystère, il arrive au joueur en morceaux qu'on trouve par plus d'un chemin. Une révélation qui rapetisse ce qu'elle explique déçoit, mais elle n'a pas à ouvrir sur plus grand, et un mystère qui se ferme à sa taille est une bonne fin. Si le joueur a déjà deviné, donne-lui raison vite et mets l'enjeu dans ce qu'on en fait.
+**Ce qui est vrai.** Avant toute description, écris ce que chaque élément que l'arc utilise est vraiment. Si l'arc cache quelque chose, le joueur peut l'apprendre par plus d'un chemin.
 
 **Comment l'arc peut finir.** Une phrase, et si ça aide le MJ, ce qui peut y mener, avec des alternatives. Ce n'est pas un déroulé. Le joueur y arrive par n'importe quel chemin, ou finit autrement.
 
-**Ce qui bouge sans le joueur.** Une poignée d'événements, en mots plutôt qu'en heures, chacun avec ce que devient l'histoire si le joueur arrive après. Le MJ pourra les décaler. Une pression n'est pas obligatoire, parce que la campagne a aussi besoin d'arcs lents.
+**Ce qui bouge sans le joueur**, s'il y a lieu. Une poignée d'événements, chacun avec ce que devient l'histoire si le joueur arrive après. Le MJ pourra les décaler. Beaucoup d'arcs n'en ont pas forcément besoin, mais cela joue sur la cohérence de l'univers.
 
-**Les lieux.** Ceux que l'arc touche, chacun avec sa fiche. « Ce qu'on voit » s'écrit en phrases, pour quelqu'un qui n'a pas les fichiers, parce que le MJ le lira presque tel quel. Les distances se disent en temps de marche et en difficulté plutôt qu'en kilomètres. Un lieu peut exister pour lui-même.
+**Les lieux.** Ceux que l'arc touche, chacun avec sa fiche. « Ce qu'on voit » s'écrit en phrases, pour quelqu'un qui n'a pas les fichiers, parce que le MJ le lira presque tel quel. Chaque lieu a des pointeurs vers ses PNJ.
 
-**Les PNJ.** Peu au premier plan, et marquants. Un rôle en trois mots, des traits qui disent comment il réagit, ce qu'il veut maintenant, sa voix, ce qu'il sait et d'où il le tient. Un caché seulement s'il en a un. Varie les tempéraments, parce qu'un monde où tout le monde retient l'information est aussi plat qu'un monde où tout le monde la donne.
+**Les PNJ.** Chacun doit avoir des traits caractéristiques et un rôle, important ou non pour l'histoire. Il faut bien noter ce que sait chaque PNJ pour éviter que le narrateur fasse dire à un PNJ quelque chose qu'il ne sait pas. Varie les PNJ.
 
 **Les situations importantes**, s'il y en a. Ce qui est en jeu et ce que le monde offre pour s'en sortir, jamais les issues. On ne meurt que par la conjonction d'un danger perceptible, d'une imprudence et d'une mauvaise décision.
 
-**Les règles maison.** Seulement ce dont un choix du joueur dépendra, écrit en mots dans `regles.md`. Les comptes, les heures, les distances et les tables restent au MJ, qui les redonne en jeu quand un choix en dépend. Le joueur apprend une règle la première fois qu'elle sert, pas en lisant.
+**Les règles maison.** Si l'univers a des règles implicites, elles vont dans `regles.md`, sous « Règles maison ».
 
-**La difficulté** vient de ce que l'arc est. Des hypothèses concurrentes pour une enquête, des ressources pour une survie, des gens qui veulent des choses incompatibles pour une négociation. Jamais des dés plus durs.
+**La difficulté.** Jamais des dés plus durs. La narration doit donner les challenges au joueur, que ce soit des ennemis ou des énigmes.
 
-**Le personnage**, si c'est toi qui le proposes. Décide d'abord ce qu'il est, puis donne des valeurs franches, hautes à ce qui le définit et basses à ce qu'il n'est pas, sans total à respecter. Ne lui donne pas une charge ou une expertise à la place de laquelle le joueur devrait raisonner, sauf si le joueur la choisit. Son passé et ses raisons restent au joueur.
+**Le personnage**, si c'est toi qui le proposes. Décide d'abord ce qu'il est, puis donne des valeurs franches, hautes à ce qui le définit et basses à ce qu'il n'est pas, sans total à respecter. Garde en tête que le joueur ne connaîtra pas le monde directement.
 
 `boite-a-outils.md`, dans ce dossier, rassemble des procédés d'autres MJ. Pioche dedans si ça aide, sans obligation, et préfère ce qu'un arc passé n'a pas déjà utilisé.
 
@@ -59,11 +61,10 @@ Ne pose au joueur que ce qui bloque vraiment, en une fois. S'il a demandé la su
 
 Relis une fois :
 
-- chaque élément a sa vérité, et chaque information importante a quelqu'un qui la sait et une façon de l'avoir apprise ;
-- aucune situation n'est sans issue, et chaque événement a sa version en retard ;
-- dates, âges et durées tiennent entre eux et avec les arcs passés ;
-- `SCENARIO.md` est court, ne décrit rien, et chaque pointeur mène à une fiche qui existe ; `monde/INDEX.md` est à jour ;
-- rien ne suppose ce que le personnage pense ou fera ;
+- ce que l'arc utilise ou cache a sa vérité, et ce que le joueur peut apprendre, quelqu'un ou quelque chose peut le lui apprendre ;
+- aucune situation n'est sans issue, et chaque événement prévu a sa version en retard ;
+- dates, âges et durées tiennent entre eux ;
+- `SCENARIO.md` est assez court pour le contexte mais chaque pointeur mène à une fiche qui existe ; `monde/INDEX.md` est à jour ;
 - aucune section n'est là parce que le modèle l'avait, et l'arc ne copie pas les arcs passés ni ne se définit contre eux.
 
 ## Les fichiers
@@ -72,44 +73,25 @@ Le skill `jouer` lit ces fichiers, respecte leur structure. Les noms de fiches s
 
 | Fichier | Ce que tu y écris |
 |---|---|
-| `scenario/SCENARIO.md` | La colonne vertébrale de l'arc (structure ci-dessous). Il se lit en entier à chaque session, donc il reste court, 150 lignes au plus. Réécrit à chaque arc. |
-| `monde/INDEX.md` | Une ligne par fiche : chemin, nom, ce que c'est en quelques mots, connu du joueur (oui / non / de nom). |
-| `monde/univers.md` | Le brouillon du monde entier, une page, connu de tous. Se complète, ne se réécrit pas. |
+| `monde/grand_dessin.md` | Caché : ce qu'est la campagne, comment elle peut finir, ce qui est vrai qu'on ne sait pas encore, ce que les arcs en ont laissé voir, et les acquis des arcs. Écrit la première fois avant le monde, complété ensuite. |
+| `scenario/SCENARIO.md` | La colonne vertébrale de l'arc (structure ci-dessous). Il se lit en entier à chaque session, donc il reste synthétique pour le contexte. |
+| `monde/INDEX.md` | Une ligne par fiche : ce que c'est en quelques mots, connu du joueur (oui / non / de nom). |
+| `monde/univers.md` | Le brouillon du monde entier, connu de tous. Se complète, ne se réécrit pas. |
 | `monde/histoire.md` | La chronologie et « En ce moment, ailleurs ». |
-| `monde/grand_dessin.md` | Caché : ce qui est vrai à l'échelle de la campagne, s'il y a quelque chose, et les acquis des arcs. |
 | `monde/contrees/`, `factions/`, `anciens/`, `lieux/`, `pnj/` | Une fiche par élément (modèles ci-dessous) ; d'autres catégories si le monde en a besoin. |
 | `intrigues.md` | Une section « Arc N » avec ce que le joueur sait déjà. |
-| `regles.md` | Les règles maison de l'arc, sous « Règles maison (connues du joueur) ». |
+| `regles.md` | Les règles maison de l'arc, sous « Règles maison ». |
 | `etat_actuel.md` | La scène d'ouverture, le lieu (→ fiche), la date, les PNJ présents (→ fiches), et un paragraphe « Pour démarrer ». |
 | `personnage.md` | Seulement si le joueur te demande de proposer le personnage. |
-| `journal.md` | N'y touche pas. |
+| `journal.md` | N'y touche pas. C'est le résumé que `jouer` écrit après chaque session. |
 
-Structure de `scenario/SCENARIO.md`. Ces cinq sections sont toujours là ; ajoute celles que l'arc demande (Mystère, Carte, Situations importantes, Pour tenir le rythme, Grand dessin, ou d'autres) :
-
-```
-# Arc N : <titre>
-_Caché. Ne décrit rien : pointe vers les fiches de `monde/`._
-
-## Cadrage
-Ce qui porte l'arc, en une ou deux phrases · point d'entrée (→ lieu, date) · ce que le joueur sait déjà · couleur, s'il y en a une
-
-## Ce qui est vrai
-<ce que les éléments de l'arc sont vraiment, une ligne chacun, → fiches>
-
-## Comment ça peut finir
-<une phrase ; si utile, ce qui y mène, avec des alternatives, → fiches>
-
-## Ce qui bouge (au futur ; cocher quand passé)
-- [ ] <quand> — <ce qui arrive> → … En retard : <autre route / autre prix>
-
-## Écarts (rempli par `jouer`)
-```
+Structure de `scenario/SCENARIO.md` : celle du modèle de campagne. Quatre sections sont toujours là (Cadrage, Ce qui est vrai, Comment ça peut finir, Écarts) ; ajoute celles que l'arc demande (Ce qui bouge, Mystère, Carte, Situations importantes, Pour tenir le rythme, ou d'autres).
 
 Fiche PNJ (`monde/pnj/<nom>.md`) :
 
 ```
-# <Nom> — <rôle en trois mots>
-**Traits** : … · **Veut** : <intention, une phrase> · **Voix** : <deux ou trois tics>
+# <Nom> — <description et rôle>
+**Traits** : … · **Veut** : <intention>
 **Appartient à** : → factions/…, → contrees/…
 
 ## Sait (et d'où)
@@ -130,13 +112,13 @@ Où · attitude envers le personnage · statut
 Fiche lieu (`monde/lieux/<nom>.md`) :
 
 ```
-# <Nom> — <ce que c'est en quelques mots>
+# <Nom> — <description d'un lieu, peut avoir des sous-lieux>
 **Liens** : → lieux/…, → pnj/…
 
 ## Ce qu'on voit
 <en phrases, tel que le MJ pourra le lire>
 
-## Ce qui est vrai (caché)
+## Ce qui est vrai (caché, s'il y a lieu)
 
 ## Dans l'arc (← SCENARIO, s'il y a lieu)
 
@@ -149,16 +131,16 @@ Fiche du monde (`contrees/`, `factions/`, `anciens/`, ou toute autre catégorie)
 
 ```
 # <Nom> — <ce que c'est en une phrase>
-**Ce que tout le monde en sait** : <deux ou trois lignes>
-**Ce qui est vrai** (caché) : <s'il diffère>
-**Projet en cours** (factions) / **ce qu'il en reste** (anciens) : …
-**Ce qui en affleure** : mots, coutumes, objets, rumeurs, marchandises, pour improviser
-**Liens** : → …, chronologie : <dates>
+**Ce qui est vrai** (possiblement caché) : …
+**En ce moment** (s'il y a lieu) : …
+**Liens** : → lieux/…, → pnj/…, → … · chronologie : <dates>
 **Arcs** : <une ligne par arc où elle a compté>
 ```
 
-Une fiche contient l'apparent et le caché. Le skill `jouer` ne dit jamais « Caché » ni « Ce qui est vrai », sauf ce que le joueur découvre en jeu.
+Une fiche contient l'apparent et le caché. Le skill `jouer` ne dit jamais « Caché » ni « Ce qui est vrai », seulement ce que le joueur découvre en jeu.
 
 ## Rendre la main
 
-Au joueur, ne donne que le cadre, la scène d'ouverture en deux lignes, et les règles nouvelles en une ligne chacune si elles changent sa façon de jouer. Rien de la vérité ni des PNJ à venir, parce que la découverte, c'est le jeu. Propose ensuite de jouer avec le skill `jouer`.
+Au joueur, ne donne que le cadre, la scène d'ouverture en deux lignes, et les règles nouvelles si elles changent sa façon de jouer. Rien de la vérité ni des PNJ à venir, parce que la découverte, c'est le jeu.
+
+Le choix du personnage peut influer sur l'histoire, tu peux en proposer au joueur et en discuter.

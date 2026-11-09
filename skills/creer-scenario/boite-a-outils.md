@@ -1,6 +1,6 @@
 # Boîte à outils
 
-Des procédés que des MJ ont partagés, FibreTigre en premier (sources dans `REMERCIEMENTS.md`). Ce ne sont pas des ingrédients d'un bon arc : ce sont des idées à piocher quand l'arc en a besoin. Détourne-les, combine-les, invente les tiens. Si un arc passé en a déjà utilisé un, préfère autre chose.
+Des procédés que des MJ ont partagés, FibreTigre en premier (sources dans `REMERCIEMENTS.md`). Ce sont des idées à piocher quand l'arc en a besoin. Détourne-les, combine-les, invente les tiens.
 
 - **Les deux familles sur trois** : à une étape du chemin vers la fin, plusieurs alternatives dont on n'exige qu'une partie, chacune gagnée par un mode différent (explorer, parler, agir).
 - **La leçon apprise** : un petit problème ou un petit objet de l'ouverture qui est la maquette d'une situation décisive, et qui y revient.

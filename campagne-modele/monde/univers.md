@@ -13,4 +13,4 @@ _Une ligne chacun, → factions/… quand la fiche existe_
 ## Ce qui reste du passé (ruines, mots, coutumes), s'il y a lieu
 _→ anciens/…_
 
-## Légendes que tout le monde connaît (vraies à moitié)
+## Légendes

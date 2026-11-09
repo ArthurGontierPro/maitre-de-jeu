@@ -15,7 +15,8 @@ Maître de jeu de *Game of Rôles*, auteur de l'univers et du jeu *Aria*. C'est 
 - **les éléments du passé** qui reviennent avec un visage, et les six premiers épisodes « noyés de quêtes » avant que les conséquences nourrissent la suite ;
 - jamais de situation sans issue ; une mort exige danger, imprudence et mauvaise décision réunis ;
 - un univers **simple et archétypal**, sans pseudo-elfes, nourri du patrimoine littéraire plutôt que de Donjons & Dragons ; un monde en nuances, sans ennemis déshumanisés, où tuer ne rapporte pas d'or ;
-- le combat rare, solennel, à conséquences ; le PNJ confié aux personnages pour porter un thème ; l'échéance connue qui fait de la tragédie un jeu.
+- le combat rare, solennel, à conséquences ; le PNJ confié aux personnages pour porter un thème ; l'échéance connue qui fait de la tragédie un jeu ;
+- **la campagne avant le monde** (pour *Odyssée*, un voyage de retour d'abord, puis un monde où voyager, avec en chaque lieu ses propres quêtes et quelques indices pour rentrer) et **le genre qui change** d'un épisode à l'autre, horreur, exploration, résistance, gouvernance, comme dans *Galaxies*.
 
 Ce qu'on n'a pas repris, en connaissance de cause : ses accroches écrites sur mesure pour chaque joueur (« Game of Rôles ne fonctionne qu'au bait »). Ici, le scénario ne présume rien du personnage.
 

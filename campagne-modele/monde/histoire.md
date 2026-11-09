@@ -5,5 +5,5 @@ _Une ligne par événement : date, ce qui s'est passé, pointeurs, et la version
 - 
 
 ## En ce moment, ailleurs
-_Quelques choses qui se passent dans le monde pendant l'arc, sans rapport avec lui. Elles arrivent en jeu comme rumeurs, prix, réfugiés, nouvelles, et avancent d'un arc à l'autre._
+_Quelques choses qui se passent dans le monde pendant l'arc, sans rapport avec lui. Elles arrivent en jeu comme rumeurs, prix, nouvelles, et avancent d'un arc à l'autre._
 - 
