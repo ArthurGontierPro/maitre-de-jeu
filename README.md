@@ -30,7 +30,7 @@ ma-campagne/
   regles.md          le système d100 et les règles maison connues du joueur
   intrigues.md       ce que le joueur sait
   journal.md         un résumé court par session de l'arc en cours
-  retours_joueur.md  ce que le joueur a dit de la partie, hors jeu
+  retours_joueur.md  la manière de mener que le joueur demande, hors jeu (jamais le contenu)
   scenario/
     SCENARIO.md      l'arc en cours, caché et court : genre et cadrage, ce qui est vrai, comment ça peut finir,
                      écarts, plus ce que l'arc demande (ce qui bouge…) ; il décrit la quête principale, la toile de fond et l'arc en cours, et pointe vers les fiches

@@ -21,7 +21,7 @@ Un scénario court dit ce qui peut faire avancer l'arc et pointe vers des fiches
 | `monde/INDEX.md` | Une ligne par fiche, avec ce que le joueur en connaît. | début de session |
 | `monde/univers.md` | Le monde connu de tous, une page. | début de session |
 | `journal.md` | Un résumé court par session. | début de session (la dernière) |
-| `retours_joueur.md` | Ce que le joueur a dit de la partie, hors jeu. | début de session |
+| `retours_joueur.md` | La manière de mener que le joueur demande, hors jeu. | début de session |
 | `monde/lieux/`, `monde/pnj/` | Une fiche par lieu, par PNJ. | quand la scène y entre ou le mentionne |
 | `monde/contrees/`, `factions/`, `anciens/`, `histoire.md`, `grand_dessin.md` | Le monde large et ce qu'est la campagne (caché). | quand quelqu'un en parle, quand tu improvises près d'une grande vérité, et quand l'arc laisse voir quelque chose de la campagne |
 | `arcs/<arc>/` | Les arcs terminés. | seulement si on y revient |
@@ -66,6 +66,6 @@ Quand le joueur a résolu le scénario, le scénario se résout. Pas de difficul
 
 ## Les fichiers
 
-Mets les fichiers à jour aux changements de scène et avant la fin de la session, pas à chaque réplique. N'écris que ce qui change la suite, jamais le compte rendu des scènes : `etat_actuel.md` réécrit, `personnage.md`, les fiches touchées (« État », « Sait »), le scénario (événements cochés, écarts), `monde/grand_dessin.md` (ce que le joueur a vu ou relié du fil de la campagne), `intrigues.md`, `monde/INDEX.md`, et une synthèse par session dans `journal.md`. Après un débrief, une synthèse dans `retours_joueur.md`, les bons points et les mauvais.
+Mets les fichiers à jour aux changements de scène et avant la fin de la session, pas à chaque réplique. N'écris que ce qui change la suite, jamais le compte rendu des scènes : `etat_actuel.md` réécrit, `personnage.md`, les fiches touchées (« État », « Sait »), le scénario (événements cochés, écarts), `monde/grand_dessin.md` (ce que le joueur a vu ou relié du fil de la campagne), `intrigues.md`, `monde/INDEX.md`, et une synthèse par session dans `journal.md`. Après un débrief, une synthèse dans `retours_joueur.md`, limitée à la manière de mener (narration, rythme, dés, règles dites à temps, PNJ, hors jeu) : jamais les mots du joueur, jamais ce qui lui a plu ou déplu dans le contenu, jamais de liste du déjà joué, parce que ce fichier est relu avant de créer et qu'un exemple y devient un moule. Ce qui touche à la création ou au système va dans le dépôt du système, pas ici.
 
 En fin d'arc, déplace `scenario/` dans `arcs/<arc>/` avec les sessions du journal, une copie de `intrigues.md` et de `personnage.md`, et un `RESUME.md` (l'histoire en bref, l'état final, ce que l'arc laisse derrière). Condense l'arc en une ligne sous « Arcs » dans chaque fiche touchée, reporte ce qui est acquis dans `monde/grand_dessin.md`, laisse `retours_joueur.md` court, vide `journal.md`, puis propose le skill `creer-scenario`.

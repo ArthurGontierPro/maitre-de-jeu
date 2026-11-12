@@ -11,7 +11,15 @@ Tu es l'architecte de la campagne et de ses arcs, et tu prépares les choses pou
 
 ## La campagne, la première fois
 
-Avant le monde, décide ce qu'est la campagne, et son genre narratif s'il y en a un. Un retour, une origine à comprendre, une chose à bâtir, un lieu à atteindre, une menace à saisir, des aventures sans autre fil que le monde, ou autre chose (des idées dans `palettes.md`, dans ce dossier). Écris dans `monde/grand_dessin.md` ce qu'elle est, comment elle peut finir s'il y a une fin, et ce qui est vrai qu'on ne sait pas encore, s'il y a quelque chose. Le fil de la campagne n'avance pas par scènes. Il avance par ce que les arcs en laissent voir, et ce peut être n'importe quoi que le joueur rencontre, un détail de décor, un nom, une coutume, une rumeur, un témoin, un paysage, la conséquence d'un de ses actes. Il n'a pas besoin d'être caché, ni cherché, ni reconnu sur le moment. Le joueur rassemble et comprend à son rythme.
+Une campagne nouvelle se crée sans rien lire des campagnes passées : ni leurs dossiers d'archive, ni leurs README, ni leurs noms de dossier, ni des notes qui en résument le contenu. Un exemple lu pour une autre raison (un format à copier, un retour à relire) devient un moule sans qu'on s'en aperçoive, et on ne sent pas la contamination de l'intérieur. Si ton contexte en contient malgré tout, dis-le au joueur avant de créer. Quand la campagne est écrite, relis-la en cherchant ce qu'elle partage avec tout ce qui est passé dans le contexte de la session (un mot, un métier, une ouverture, une structure), et dis-le aussi avant de rendre la main.
+
+Ne rien lire ne suffit pas. Même avec un contexte vide, la première idée qui vient est celle qui est déjà venue aux sessions d'avant, avec les mêmes objets, les mêmes métiers et jusqu'aux mêmes prénoms, parce que c'est la plus probable pour toi, et elle a de l'intérieur le goût d'une trouvaille. Deux gestes s'y opposent, dans cet ordre.
+
+**Tire avant d'avoir une idée.** Lance `python3 tirer.py` (dans ce dossier) depuis le dossier de la campagne. Il tire au vrai hasard une main dans `palettes.md`, c'est-à-dire un monde, une quête de campagne, un genre, une échelle et une humeur, puis le genre et ce qui porte le premier arc, et il la note dans `jets.log`. Bâtis la campagne sur cette main, surtout si elle te déroute. Ce que la main ne dit pas reste libre. Si le joueur a demandé quelque chose, sa demande passe avant la main, et tu ne gardes de la main que ce qui ne la contredit pas.
+
+**Compte avant d'écrire.** Quand l'idée tient en quelques lignes, et avant le premier fichier, donne à `python3 recoupe.py` une douzaine de mots au singulier qui lui sont propres : les choses que le joueur aura en main, les métiers, les institutions, la règle du monde, les noms que tu comptes donner. Il les compte dans les autres dossiers de campagne et n'affiche que des nombres, sans nom de dossier ni ligne de texte, ce qui ne contamine rien. Si plusieurs de ces mots pèsent ailleurs, l'idée est déjà venue. Jette-la entière et retire une main. Ne la maquille pas, parce que changer l'objet en gardant la mécanique redonne la même campagne. Quand la campagne est écrite, relance `recoupe.py` sans argument (il choisit alors lui-même les mots) et dis au joueur ce qu'il affiche avant de rendre la main.
+
+Avant le monde, décide ce qu'est la campagne à partir de la main tirée, et son genre narratif s'il y en a un. Écris dans `monde/grand_dessin.md` ce qu'elle est, comment elle peut finir s'il y a une fin, et ce qui est vrai qu'on ne sait pas encore, s'il y a quelque chose. Le fil de la campagne n'avance pas par scènes. Il avance par ce que les arcs en laissent voir, et ce peut être n'importe quoi que le joueur rencontre, un détail de décor, un nom, une coutume, une rumeur, un témoin, un paysage, la conséquence d'un de ses actes. Il n'a pas besoin d'être caché, ni cherché, ni reconnu sur le moment. Le joueur rassemble et comprend à son rythme.
 
 ## Le monde, la première fois puis complété
 
@@ -29,7 +37,7 @@ Lis ce qui est court : `monde/grand_dessin.md`, `etat_actuel.md`, `personnage.md
 
 Puis cherche ce que cet arc aura de propre. Une image, une situation, une personne, une question qui donne envie d'y jouer, et le genre dans lequel on le joue. Pars de là et ne prends ensuite que la structure qu'elle demande.
 
-Quand l'idée est là, lis `retours_joueur.md` comme une relecture, pas comme un cahier des charges. Ce qui a plu ne se refait pas tel quel, ce qui a gêné ne dicte pas l'arc, et un arc qui répond à tous les reproches passés, ou qui se définit contre l'arc précédent, finit dans un moule.
+Quand l'idée est là, et pas avant, lis `retours_joueur.md` comme une relecture, pas comme un cahier des charges. Il ne contient que la manière de mener que le joueur demande ; s'il contient autre chose (ce qui a plu, ce qui a déplu, une liste du déjà joué), c'est une erreur à corriger, pas une consigne. Ce qui a plu ne se refait pas tel quel, ce qui a gêné ne dicte pas l'arc, et un arc qui répond à tous les reproches passés, ou qui se définit contre l'arc précédent, finit dans un moule.
 
 ### Construire
 
@@ -65,7 +73,12 @@ Relis une fois :
 - aucune situation n'est sans issue, et chaque événement prévu a sa version en retard ;
 - dates, âges et durées tiennent entre eux ;
 - `SCENARIO.md` est assez court pour le contexte mais chaque pointeur mène à une fiche qui existe ; `monde/INDEX.md` est à jour ;
+- pour une campagne nouvelle, `recoupe.py` a tourné sur la campagne écrite, et le joueur saura ce qu'il a affiché ;
 - aucune section n'est là parce que le modèle l'avait, et l'arc ne copie pas les arcs passés ni ne se définit contre eux.
+
+## Archiver une campagne
+
+Quand le joueur demande d'archiver la campagne en cours : déplace les fichiers de la racine (`CLAUDE.md`, `etat_actuel.md`, `personnage.md`, `regles.md`, `intrigues.md`, `journal.md`, `retours_joueur.md`, `scenario/`, `monde/`, `arcs/`, `jets.log`) dans un dossier d'archives hors du dossier de campagne, par exemple `../jdr-archives/<titre-en-minuscules>/`, avec un `README.md` qui dit le titre, les dates, le personnage, où la partie s'est arrêtée, pourquoi elle est archivée et comment la reprendre. Puis recopie `campagne-modele/` à la racine, et ne garde de l'ancien `retours_joueur.md` que la conduite. Ce README est pour le joueur ; on n'en relit aucun pour créer, et cette procédure est ici pour qu'on n'ait jamais besoin d'aller en regarder un.
 
 ## Les fichiers
 
