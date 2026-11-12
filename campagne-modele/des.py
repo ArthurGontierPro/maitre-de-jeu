@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Lanceur de dés pour le JdR « Les Marches du Sablier ».
+"""Lanceur de dés pour la campagne.
 
 Usage :
   python3 des.py               -> d100 brut
@@ -9,7 +9,8 @@ Usage :
   python3 des.py d6 | 2d6 | 3d10+2   -> dés quelconques (dégâts, etc.)
   --cache                      -> jet caché du MJ (noté [MJ] dans jets.log)
 
-Critiques : 1-5 = réussite critique, 96-100 = échec critique, quelle que soit la valeur.
+Critiques, quelle que soit la valeur : 1-10 = réussite critique (1 = effet bonus extrême),
+91-100 = échec critique (100 = effet catastrophique). Le seuil est donc borné à 90.
 Chaque jet est enregistré dans jets.log.
 """
 import os
@@ -38,19 +39,22 @@ def des_libres(expr):
 
 
 def test(valeur, modif):
-    seuil = max(1, min(99, valeur + modif))
+    seuil = max(1, min(90, valeur + modif))
     de = random.randint(1, 100)
-    if de <= 5:
+    if de == 1:
+        verdict = "RÉUSSITE CRITIQUE EXTRÊME !"
+    elif de <= 10:
         verdict = "RÉUSSITE CRITIQUE !"
-    elif de >= 96:
+    elif de == 100:
+        verdict = "ÉCHEC CATASTROPHIQUE !"
+    elif de >= 91:
         verdict = "ÉCHEC CRITIQUE !"
     elif de <= seuil:
         verdict = "Réussite"
     else:
         verdict = "Échec"
-    marge = seuil - de
     mod_txt = f" ({valeur} {modif:+d})" if modif else ""
-    return f"d100 = {de}  vs  {seuil}{mod_txt}  ->  {verdict}  (marge {marge:+d})"
+    return f"d100 = {de}  vs  {seuil}{mod_txt}  ->  {verdict}"
 
 
 def main():
